@@ -19,6 +19,8 @@
 
 .form__checkbox {
   border-radius: 2px;
+  min-width: 16px;
+  max-width: 16px;
 }
 
 .form__label_type_checkbox {
@@ -37,6 +39,7 @@
   border-radius: 4px;
   height: 60px;
   padding-left: 15px;
+  padding-right: 15px;
 }
 
 .form__button {
@@ -52,12 +55,13 @@
   background-color: #2f80ed;
   color: #fff;
   height: 60px;
+  border: 0px;
 }
 .form__button:hover {
   opacity: 70%;
 }
 
-input::placeholder {
+form__input::placeholder {
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 20px;
   line-height: 30px;

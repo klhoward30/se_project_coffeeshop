@@ -8,14 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
   flex-wrap: wrap;
-}
-
-.footer__social-section {
-  min-width: 200px;
-  margin: 10px 0;
 }
 
 .footer__logo {
@@ -30,6 +23,7 @@
   font-family: "Inter", "Arial", "sans-serif";
   font-weight: bold;
   line-height: 20px;
+  margin-top: 0;
 }
 
 .footer__list {
@@ -40,6 +34,10 @@
 
 .footer__list-item {
   margin-bottom: 10px;
+}
+
+.footer__list-item: last-of-type {
+  margin-bottom: 0;
 }
 
 .footer__social-link {
