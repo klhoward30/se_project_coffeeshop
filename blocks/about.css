@@ -44,24 +44,19 @@
   z-index: 3;
   color: #fff;
   padding: 0;
-  margin: 119px 80px 173px;
+  margin: 119px 173px 80px 80px;
+  max-width: 660px;
 }
 .about__paragraph {
-  gap: 20px;
-  max-width: 660px;
   color: #fff;
-  margin: 10px 0;
+  margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-family: "Noto Serif", "Times New Roman", "serif";
 }
 
-.about__paragraph:first-of-type {
-  padding: 0;
-}
-
-.about__paragraph:last-of-type {
-  padding: 0;
+.about__paragraph:not(:last-of-type) {
+  margin-bottom: 20px;
 }
 
 .about__circle {

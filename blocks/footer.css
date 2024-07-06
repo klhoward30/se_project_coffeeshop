@@ -36,7 +36,7 @@
   margin-bottom: 10px;
 }
 
-.footer__list-item: last-of-type {
+.footer__list-item:last-of-type {
   margin-bottom: 0;
 }
 
@@ -54,7 +54,6 @@
 }
 
 .footer__social-icon {
-  margin-right: 10px;
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 16px;
   line-height: 20px;

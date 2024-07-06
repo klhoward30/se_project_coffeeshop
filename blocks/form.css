@@ -61,7 +61,7 @@
   opacity: 70%;
 }
 
-form__input::placeholder {
+.form__input::placeholder {
   font-family: "Inter", "Arial", "sans-serif";
   font-size: 20px;
   line-height: 30px;
